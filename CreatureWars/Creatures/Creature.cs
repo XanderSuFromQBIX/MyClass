@@ -26,14 +26,14 @@ namespace Q_BIX_Zach.Creatures
             }
         }
 
-        private int FullHp;
+        private readonly int FullHp;
         public int Hp { get; private set; }
-        private int Strength;
+        private readonly int Strength;
         private int Love;
         private static Random rnd = new Random();
 
         private CreatureSkills Skill1;
-        private CreatureSkills Skill2;
+        private readonly CreatureSkills Skill2;
         private CreatureWeapons Weapon;
 
 
